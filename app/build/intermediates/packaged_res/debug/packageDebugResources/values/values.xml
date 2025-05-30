@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="string" name="adSize"/>
+    <attr format="string" name="adSizes"/>
+    <attr format="string" name="adUnitId"/>
+    <attr name="buyButtonAppearance">
+        <enum name="classic" value="1"/>
+        <enum name="grayscale" value="2"/>
+        <enum name="monochrome" value="3"/>
+    </attr>
+    <attr format="dimension" name="buyButtonHeight">
+        <enum name="match_parent" value="-1"/>
+        <enum name="wrap_content" value="-2"/>
+    </attr>
+    <attr name="buyButtonText">
+        <enum name="book_now" value="3"/>
+        <enum name="buy_now" value="2"/>
+        <enum name="buy_with_google" value="1"/>
+    </attr>
+    <attr format="dimension" name="buyButtonWidth">
+        <enum name="match_parent" value="-1"/>
+        <enum name="wrap_content" value="-2"/>
+    </attr>
+    <attr format="float" name="cameraBearing"/>
+    <attr format="float" name="cameraTargetLat"/>
+    <attr format="float" name="cameraTargetLng"/>
+    <attr format="float" name="cameraTilt"/>
+    <attr format="float" name="cameraZoom"/>
+    <attr name="environment">
+        <enum name="production" value="1"/>
+        <enum name="sandbox" value="0"/>
+        <enum name="strict_sandbox" value="2"/>
+    </attr>
+    <attr name="fragmentMode">
+        <enum name="buyButton" value="1"/>
+        <enum name="selectionDetails" value="2"/>
+    </attr>
+    <attr format="reference" name="fragmentStyle"/>
+    <attr name="mapType">
+        <enum name="hybrid" value="4"/>
+        <enum name="none" value="0"/>
+        <enum name="normal" value="1"/>
+        <enum name="satellite" value="2"/>
+        <enum name="terrain" value="3"/>
+    </attr>
+    <attr format="reference|color" name="maskedWalletDetailsBackground"/>
+    <attr format="reference|color" name="maskedWalletDetailsButtonBackground"/>
+    <attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/>
+    <attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/>
+    <attr name="maskedWalletDetailsLogoImageType">
+        <enum name="classic" value="1"/>
+        <enum name="monochrome" value="2"/>
+    </attr>
+    <attr format="color" name="maskedWalletDetailsLogoTextColor"/>
+    <attr format="reference" name="maskedWalletDetailsTextAppearance"/>
+    <attr name="themeCustom">
+        <enum name="holo_dark" value="0"/>
+        <enum name="holo_light" value="1"/>
+    </attr>
+    <attr format="boolean" name="uiCompass"/>
+    <attr format="boolean" name="uiRotateGestures"/>
+    <attr format="boolean" name="uiScrollGestures"/>
+    <attr format="boolean" name="uiTiltGestures"/>
+    <attr format="boolean" name="uiZoomControls"/>
+    <attr format="boolean" name="uiZoomGestures"/>
+    <attr format="boolean" name="useViewLifecycle"/>
+    <attr format="boolean" name="zOrderOnTop"/>
+    <color name="black">#ff000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black30">#40000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black_60_transparency">#99212229</color>
+    <color name="black_72_transparency">#b8212229</color>
+    <color name="black_75_transparency">#bf000000</color>
+    <color name="blue">#ff3ea2ff</color>
+    <color name="blue_button_smi_dialog">#ff4d5877</color>
+    <color name="blue_not_active_switch">#ff4d5877</color>
+    <color name="car_hp_line">#ff2626</color>
+    <color name="colorAccent">#ffed4319</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
+    <color name="color_000000C9">#000000c9</color>
+    <color name="color_00FFBA08">#00ffba08</color>
+    <color name="color_0F0F0F">#ff0f0f0f</color>
+    <color name="color_15_273647">#25273647</color>
+    <color name="color_15_FFFFFF">#1fffffff</color>
+    <color name="color_1AE2310C">#1ae2310c</color>
+    <color name="color_1F2024">#ff1f2024</color>
+    <color name="color_1FFFFFFF">#1fffffff</color>
+    <color name="color_20212A">#ff20212a</color>
+    <color name="color_212121">#ff212121</color>
+    <color name="color_252736">#ff252736</color>
+    <color name="color_252736_61">#9c252736</color>
+    <color name="color_257728">#ff257728</color>
+    <color name="color_262836">#ff262836</color>
+    <color name="color_262837">#ff262837</color>
+    <color name="color_26_FFFFFF">#26ffffff</color>
+    <color name="color_28_252736">#47252736</color>
+    <color name="color_2A2A3754">#2a2a3754</color>
+    <color name="color_2E303B">#ff2e303b</color>
+    <color name="color_30EF37">#ff30ef37</color>
+    <color name="color_313148">#ff313148</color>
+    <color name="color_323343">#ff323343</color>
+    <color name="color_333548">#ff333548</color>
+    <color name="color_38383D">#ff38383d</color>
+    <color name="color_384DF1">#ff384df1</color>
+    <color name="color_40_121212">#66121212</color>
+    <color name="color_40_608CFF">#66608cff</color>
+    <color name="color_42B6BFD9">#42b6bfd9</color>
+    <color name="color_444754">#ff444754</color>
+    <color name="color_4586FF8B">#4586ff8b</color>
+    <color name="color_45FF8989">#45ff8989</color>
+    <color name="color_474960">#ff474960</color>
+    <color name="color_49_252736">#7d252736</color>
+    <color name="color_4CDB5A">#ff4cdb5a</color>
+    <color name="color_4D555555">#4d555555</color>
+    <color name="color_50_121212">#80121212</color>
+    <color name="color_50_676B89">#80676b89</color>
+    <color name="color_50_B6BFD9">#80b6bfd9</color>
+    <color name="color_53_2B2D38">#872b2d38</color>
+    <color name="color_58_515151">#94515151</color>
+    <color name="color_597B8D">#ff597b8d</color>
+    <color name="color_5E6076">#ff5e6076</color>
+    <color name="color_5F9BDC">#ff5f9bdc</color>
+    <color name="color_66E2310C">#66e2310c</color>
+    <color name="color_6D6D6D">#ff6d6d6d</color>
+    <color name="color_6F717C">#ff6f717c</color>
+    <color name="color_7592A1">#ff7592a1</color>
+    <color name="color_75_212333">#c0212333</color>
+    <color name="color_7D252736">#7d252736</color>
+    <color name="color_7D86A0">#ff7d86a0</color>
+    <color name="color_80B6BFD9_50">#80b6bfd9</color>
+    <color name="color_80E2310C">#80e2310c</color>
+    <color name="color_80FFE564">#80ffe564</color>
+    <color name="color_80_608CFF">#cc608cff</color>
+    <color name="color_85_262536">#d9262536</color>
+    <color name="color_8C0000">#ff8c0000</color>
+    <color name="color_9CB6BFD9_61">#9cb6bfd9</color>
+    <color name="color_9F280F">#ff9f280f</color>
+    <color name="color_AB38383D">#ab38383d</color>
+    <color name="color_ABFFC757">#abffc757</color>
+    <color name="color_B6BFD9">#ffb6bfd9</color>
+    <color name="color_BDC6EF">#ffbdc6ef</color>
+    <color name="color_EF3B30">#ffef3b30</color>
+    <color name="color_FF4D5877">#ff4d5877</color>
+    <color name="color_FF5531">#ffff5531</color>
+    <color name="color_FF8F8F8F">#ff8f8f8f</color>
+    <color name="color_FFA61D">#ffffa61d</color>
+    <color name="color_FFB001">#ffffb001</color>
+    <color name="color_FFB138">#ffffb138</color>
+    <color name="color_FFBA08">#ffffba08</color>
+    <color name="color_FFBA0800">#ffba0800</color>
+    <color name="color_FFD66D">#ffffd66d</color>
+    <color name="color_FFDE67">#ffffde67</color>
+    <color name="color_FFDED8">#ffffded8</color>
+    <color name="color_FFE2310C">#ffe2310c</color>
+    <color name="color_FFFFBA08">#ffffba08</color>
+    <color name="color_FFFFC700">#ffffc700</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="dark_bg_smi_dialog">#ff20212b</color>
+    <color name="dark_bg_smi_dialog_43">#6e20212b</color>
+    <color name="dark_bg_smi_dialog_67">#ab20212b</color>
+    <color name="default_blue_light">#ff33b5e5</color>
+    <color name="diving_school_actual_answer">#ff45475e</color>
+    <color name="diving_school_actual_answers_border">#ff959eb8</color>
+    <color name="diving_school_bg_dialog_end_test">#d9000000</color>
+    <color name="diving_school_bg_end_test">#47898989</color>
+    <color name="diving_school_bg_radial_dark">#ff212229</color>
+    <color name="diving_school_bg_radial_light">#ff303140</color>
+    <color name="diving_school_bg_radial_light_25">#40303140</color>
+    <color name="diving_school_border_end_test">#66ffffff</color>
+    <color name="diving_school_green_text_color">#ff67ff88</color>
+    <color name="diving_school_not_active_color">#ff62606f</color>
+    <color name="diving_school_not_actual_answer">#8a24252f</color>
+    <color name="diving_school_yellow_text_background">#ffffc634</color>
+    <color name="fuel_line">#ff7a00</color>
+    <color name="gradient1">#ffce0e03</color>
+    <color name="gradient2">#fff75514</color>
+    <color name="gray">#ff666666</color>
+    <color name="ic_launcher_background">#ff000000</color>
+    <color name="inv_background">#94000000</color>
+    <color name="inv_background_dialog_apply">#cc151515</color>
+    <color name="inv_background_item_in_ivn">#73000000</color>
+    <color name="inv_background_items">#a6151515</color>
+    <color name="inv_background_main_menu">#ff151515</color>
+    <color name="inv_bg_chat_if_other">#ffd2d2d2</color>
+    <color name="inv_bg_edit_text_chat">#ff3c3c3c</color>
+    <color name="inv_chat_gradient_end">#ff00f0ff</color>
+    <color name="inv_chat_gradient_start">#ff0057ff</color>
+    <color name="inv_full_transparency">#00000000</color>
+    <color name="inv_gradient_end">#ff0a7800</color>
+    <color name="inv_gradient_start">#ff12dd00</color>
+    <color name="inv_items_name_color_in_chat">#ffea3f10</color>
+    <color name="inv_not_active_text">#ff9a7575</color>
+    <color name="inv_players_color">#fff85715</color>
+    <color name="inv_this_text">#ffff3d00</color>
+    <color name="menuTextDisable">#ffffffff</color>
+    <color name="menuTextEnable">#ffde2a09</color>
+    <color name="orange">#ffef4711</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red_7">#ff250000</color>
+    <color name="red_bg_queue_smi_dialog">#ffe2310c</color>
+    <color name="red_bg_queue_smi_dialog_15">#26e2310c</color>
+    <color name="red_bg_queue_smi_dialog_25">#40e2310c</color>
+    <color name="red_bg_queue_smi_dialog_50">#80e2310c</color>
+    <color name="red_bg_queue_smi_dialog_75">#bfe2310c</color>
+    <color name="red_diagnostics">#ffff4b25</color>
+    <color name="shadow_black">#4d000000</color>
+    <color name="shadow_white">#2bffffff</color>
+    <color name="speed">#ffffc53d</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00000000</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#ff808080</color>
+    <color name="wallet_hint_foreground_holo_light">#ff808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#ff0000ee</color>
+    <color name="white">#ffffffff</color>
+    <color name="white15">#40ffffff</color>
+    <color name="white25">#40ffffff</color>
+    <color name="white50">#80ffffff</color>
+    <color name="white6">#14ffffff</color>
+    <color name="white80">#cdffffff</color>
+    <color name="yellow">#fbc02d</color>
+    <color name="yellow_active_switch">#ffffba08</color>
+    <color name="yellow_line">#ffffcc47</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <item name="btn_close" type="id"/>
+    <item name="btn_reinstall_client" type="id"/>
+    <item name="btn_reinstall_data" type="id"/>
+    <item name="btn_settings" type="id"/>
+    <item name="download_guide_text" type="id"/>
+    <item name="download_logo" type="id"/>
+    <item name="download_progressbar" type="id"/>
+    <item name="download_text" type="id"/>
+    <item name="front_ui_layout" type="id"/>
+    <item name="guideline26" type="id"/>
+    <item name="guideline27" type="id"/>
+    <item name="guideline28" type="id"/>
+    <item name="guideline33" type="id"/>
+    <item name="guideline34" type="id"/>
+    <item name="guideline36" type="id"/>
+    <item name="guideline37" type="id"/>
+    <item name="guideline38" type="id"/>
+    <item name="guideline43" type="id"/>
+    <item name="guideline44" type="id"/>
+    <item name="guideline45" type="id"/>
+    <item name="guideline46" type="id"/>
+    <item name="guideline47" type="id"/>
+    <item name="header_layout" type="id"/>
+    <item name="imageView21" type="id"/>
+    <item name="main_layout" type="id"/>
+    <item name="server_item_background" type="id"/>
+    <item name="server_item_image" type="id"/>
+    <item name="server_item_name" type="id"/>
+    <item name="server_item_online" type="id"/>
+    <item name="server_recommend_background" type="id"/>
+    <item name="server_recommend_card" type="id"/>
+    <item name="server_recommend_image" type="id"/>
+    <item name="server_recommend_layout" type="id"/>
+    <item name="server_recommend_name" type="id"/>
+    <item name="server_recommend_online" type="id"/>
+    <item name="server_recommend_text" type="id"/>
+    <item name="serverlist_caption" type="id"/>
+    <item name="serverlist_recycler" type="id"/>
+    <item name="settings_layout" type="id"/>
+    <item name="splash_logo" type="id"/>
+    <item name="story_caption_bottom" type="id"/>
+    <item name="story_caption_top" type="id"/>
+    <item name="story_details" type="id"/>
+    <item name="story_item_image" type="id"/>
+    <item name="story_item_stroke" type="id"/>
+    <item name="story_layout" type="id"/>
+    <item name="story_next" type="id"/>
+    <item name="story_picture_back" type="id"/>
+    <item name="story_prev" type="id"/>
+    <item name="story_recycler" type="id"/>
+    <item name="textView15" type="id"/>
+    <item name="textView56" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">TGRP</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">384675259373</string>
+    <string name="google_api_key" translatable="false">AIzaSyC64iePRG-COuNFYXgrCbWUs6UR8wpgkJs</string>
+    <string name="google_app_id" translatable="false">1:384675259373:android:f3f8e21ddafb7bf16a3de4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC64iePRG-COuNFYXgrCbWUs6UR8wpgkJs</string>
+    <string name="google_storage_bucket" translatable="false">samp-mobile-b726b.firebasestorage.app</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">samp-mobile-b726b</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <style name="Theme.SAMPLauncher" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.SAMPLauncher.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.SAMPLauncher.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SAMPLauncher.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="tab_layout_title" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+    <declare-styleable name="SeekArc">
+        <attr format="reference" name="thumb"/>
+        <attr format="dimension" name="thumbOffset"/>
+        <attr format="integer" name="max"/>
+        <attr format="dimension" name="progressWidth"/>
+        <attr format="dimension" name="arcWidth"/>
+        <attr format="integer" name="progress"/>
+        <attr format="integer" name="rotation"/>
+        <attr format="integer" name="startAngle"/>
+        <attr format="integer" name="sweepAngle"/>
+        <attr format="color" name="arcColor"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="boolean" name="roundEdges"/>
+        <attr format="boolean" name="touchInside"/>
+        <attr format="boolean" name="clockwise"/>
+        <attr format="boolean" name="enabled"/>
+    </declare-styleable>
+    <declare-styleable name="SeekArcTheme">
+        <attr format="reference" name="seekArcStyle"/>
+    </declare-styleable>
+</resources>

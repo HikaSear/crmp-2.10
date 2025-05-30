@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.joom.paranoid:paranoid-gradle-plugin:0.3.14" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.joom.paranoid" artifactId="paranoid-gradle-plugin" version="0.3.14" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joom.paranoid/paranoid-gradle-plugin/0.3.14/599576f06db185caa43e06120a463a662eedcf27/paranoid-gradle-plugin-0.3.14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joom.paranoid/paranoid-gradle-plugin/0.3.14/22f8f3d85ef4526ca6ddf007dcaee5b89cb1964/paranoid-gradle-plugin-0.3.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joom.paranoid/paranoid-gradle-plugin/0.3.14/401624e2776d147c6f11c4b5565e8c36c06baddb/paranoid-gradle-plugin-0.3.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

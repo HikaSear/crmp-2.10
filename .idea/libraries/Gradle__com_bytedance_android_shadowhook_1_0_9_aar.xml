@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bytedance.android:shadowhook:1.0.9@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bytedance.android/shadowhook/1.0.9/9067c23fee4b9ba1f53282908d4e8fc276867217/shadowhook-1.0.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bytedance.android/shadowhook/1.0.9/333b092dd5f2957d9db11e39a83a3020e5d2207d/shadowhook-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

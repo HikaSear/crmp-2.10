@@ -1,0 +1,46 @@
+{
+  "buildFiles": [
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\CFeatureCheck.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\config.h.cmake.in",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusBuildtype.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusConfig.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusConfig.cmake.in",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusFunctions.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusPackageVersion.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\cmake\\OpusSources.cmake",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\opus\\CMakeLists.txt",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\samp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\54274q41\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\54274q41\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opus::@27c8c1d919c410202cbb": {
+      "artifactName": "opus",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\54274q41\\armeabi-v7a\\opus\\libopus.a",
+      "runtimeFiles": []
+    },
+    "samp::@b6fce62990e69e83257e": {
+      "artifactName": "samp",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\54274q41\\obj\\armeabi-v7a\\libsamp.so",
+      "runtimeFiles": [
+        "C:\\Users\\timil\\.gradle\\caches\\8.9\\transforms\\37a142a3621b95862e6db4f3da09a3c2\\transformed\\shadowhook-1.0.9\\prefab\\modules\\shadowhook\\libs\\android.armeabi-v7a\\libshadowhook.so",
+        "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\samp\\vendor\\bass\\libs\\armeabi-v7a\\libbass.so"
+      ]
+    }
+  }
+}
