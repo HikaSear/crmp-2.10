@@ -109,3 +109,12 @@ void Chat::keyboardEvent(const std::string& input)
         else pNetGame->SendChatMessage(input.c_str());
     }
 }
+
+/*bool Chat::Command(const std::string& command)
+{
+	if(command == "/test")
+	{
+		pUI->chat()->addDebugMessage("Ебать, что за наху");
+		return true;
+	}
+}*/

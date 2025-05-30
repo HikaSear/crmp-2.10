@@ -100,7 +100,7 @@ CNetGame::CNetGame(const char* szHostOrIp, int iPort, const char *szPlayerName, 
 
     const char* sampVer = SAMP_VERSION;
 
-	if (pUI) pUI->chat()->addDebugMessage("{00ff11}2.1{ffffff} Client {00ff11}TGRP{ffffff} started");
+	if (pUI) pUI->chat()->addDebugMessage("Client {00ff11}TGRP{ffffff} started...");
 }
 // 0.3.7
 CNetGame::~CNetGame()
