@@ -26,7 +26,6 @@
 /*
 Peerapol Unarak
 */
-
 JavaVM* javaVM;
 
 char* g_pszStorage = nullptr;
@@ -408,33 +407,55 @@ void InitGui()
 #include "game/multitouch.h"
 #include "armhook/patch.h"
 #include "util/CUtil.h"
+#include "obfusheader.h"
+
+
+
+void secret_function()
+{
+    WATERMARK("SECRET OF FUCKING MIMIC: I HAVE PENIS", // Message for crackers ;)
+              "hpdev daun",
+              "go touch some grass", 0);
+
+}
+
 void SetUpGLHooks();
 jint JNI_OnLoad(JavaVM* vm, void* reserved)
 {
 	javaVM = vm;
-	LOGI("SA-MP library loaded! Build time: " __DATE__ " " __TIME__);
+	LOGI(OBF("SA-MP library loaded! Build time: " __DATE__ " " __TIME__));
 
-	g_libGTASA = CUtil::FindLib("libGTASA.so");
+    WATERMARK("                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                   by github.com/kuzia15                   ",
+              "                                                           ", 0);
+
+	g_libGTASA = CUtil::FindLib(MAKEOBF("libGTASA.so"));
 	if (g_libGTASA == 0x00) {
-		LOGE("libGTASA.so address was not found! ");
+		LOGE(OBF("libGTASA.so address was not found! "));
 		return JNI_VERSION_1_6;
 	}
 
-	g_libSAMP = CUtil::FindLib("libsamp.so");
+	g_libSAMP = CUtil::FindLib(MAKEOBF("libsamp.so"));
 	if (g_libSAMP == 0x00) {
-		LOGE("libsamp.so address was not found! ");
+		LOGE(OBF("libsamp.so address was not found! "));
 		return JNI_VERSION_1_6;
 	}
 
 	firebase::crashlytics::Initialize();
 
-	uintptr_t libgtasa = CUtil::FindLib("libGTASA.so");
-	uintptr_t libsamp = CUtil::FindLib("libsamp.so");
-	uintptr_t libc = CUtil::FindLib("libc.so");
+	uintptr_t libgtasa = CUtil::FindLib(MAKEOBF("libGTASA.so"));
+	uintptr_t libsamp = CUtil::FindLib(MAKEOBF("libsamp.so"));
+	uintptr_t libc = CUtil::FindLib(MAKEOBF("libc.so"));
 
-	FLog("libGTASA.so: 0x%x", libgtasa);
-	FLog("libsamp.so: 0x%x", libsamp);
-	FLog("libc.so: 0x%x", libc);
+	FLog(OBF("libGTASA.so: 0x%x"), libgtasa);
+	FLog(OBF("libsamp.so: 0x%x"), libsamp);
+	FLog(OBF("libc.so: 0x%x"), libc);
 
 	char str[100];
 
@@ -486,7 +507,9 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved)
 	sigemptyset(&act3.sa_mask);
 	act3.sa_flags = SA_SIGINFO;
 	sigaction(SIGBUS, &act3, &act3_old);
-		
+
+    secret_function();
+
 	return JNI_VERSION_1_6;
 }
 
