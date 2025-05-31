@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.samp.mobile"
     android:installLocation="auto"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="TGRP | v1" >
 
     <uses-sdk

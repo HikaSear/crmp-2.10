@@ -105,16 +105,23 @@ void Chat::keyboardEvent(const std::string& input)
 {
     if (input.length() > 0 && pNetGame)
     {
-        if (input[0] == '/') pNetGame->SendChatCommand(input.c_str());
-        else pNetGame->SendChatMessage(input.c_str());
+        if (input[0] == '/')
+        {
+            pUI->chat()->commandClient(input.c_str());
+            pNetGame->SendChatCommand(input.c_str()); //--
+        }
+        else
+            pNetGame->SendChatMessage(input.c_str());
     }
 }
 
-/*bool Chat::Command(const std::string& command)
+bool Chat::commandClient(const std::string& command) //--
 {
 	if(command == "/test")
 	{
 		pUI->chat()->addDebugMessage("Ебать, что за наху");
 		return true;
 	}
-}*/
+
+    return false;
+}

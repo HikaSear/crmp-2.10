@@ -1,3 +1,2 @@
 ninja: Entering directory `C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\.cxx\Debug\67363226\arm64-v8a'
-[1/2] Building CXX object samp/CMakeFiles/samp.dir/gui/samp_widgets/chat.cpp.o
-[2/2] Linking CXX shared library C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\build\intermediates\cxx\Debug\67363226\obj\arm64-v8a\libsamp.so
+ninja: no work to do.

@@ -314,23 +314,21 @@ void UI::ProcessPushedTextdraws()
         m_BufferedCommandTextdraws.ReadUnlock();
     }
 }
-,
+
 #include "..//game/sprite2d.h"
 void UI::DrawServerTexture() {
-    // получаем размеры экрана
     ImGuiIO& io = ImGui::GetIO();
     float displayWidth = io.DisplaySize.x;
     float displayHeight = io.DisplaySize.y;
 
-    // устанавливаем координаты для нижнего левого угла
-    float textureWidth = 175.0f; // ширина текстуры
-    float textureHeight = 120.0f; // высота текстуры
-    float x = 10.0f; // отступ от левого края
-    float y = displayHeight - textureHeight - 2.0f; // отступ от нижнего края
+    float textureWidth = 175.0f;
+    float textureHeight = 120.0f;
+    float x = 10.0f;
+    float y = displayHeight - textureHeight - 2.0f;
 
-    // загружаем и рисуем текстуру
+
     CSprite2d* server = new CSprite2d();
-    server->m_pRwTexture = (RwTexture*)CUtil::LoadTextureFromDB("samp", "kuzia"); // в samp с названием dslogo
+    server->m_pRwTexture = (RwTexture*)CUtil::LoadTextureFromDB("samp", "serverlogo");
 
     CRGBA color {255, 255, 255, 255};
 
