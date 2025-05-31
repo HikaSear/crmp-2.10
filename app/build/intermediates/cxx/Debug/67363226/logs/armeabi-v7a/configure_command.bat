@@ -1,0 +1,19 @@
+@echo off
+"C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=26" ^
+  "-DANDROID_PLATFORM=android-26" ^
+  "-DANDROID_ABI=armeabi-v7a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a" ^
+  "-DANDROID_NDK=C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\armeabi-v7a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\armeabi-v7a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-DCMAKE_FIND_ROOT_PATH=C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\prefab\\armeabi-v7a\\prefab" ^
+  "-BC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\armeabi-v7a" ^
+  -GNinja

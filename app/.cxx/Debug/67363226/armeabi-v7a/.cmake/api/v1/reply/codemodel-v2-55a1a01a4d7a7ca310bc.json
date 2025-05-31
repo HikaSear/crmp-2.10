@@ -23,7 +23,7 @@
 				{
 					"build" : "opus",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-opus-Debug-4f7d112e61a31f6e442f.json",
+					"jsonFile" : "directory-opus-Debug-7bdda6ec8a92fcbb2537.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.1"
@@ -97,14 +97,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "opus::@27c8c1d919c410202cbb",
-					"jsonFile" : "target-opus-Debug-e527b81d3ba57a218621.json",
+					"jsonFile" : "target-opus-Debug-7f6f9f8a7978c029d110.json",
 					"name" : "opus",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "samp::@b6fce62990e69e83257e",
-					"jsonFile" : "target-samp-Debug-bb64cbae0eee56c8853e.json",
+					"jsonFile" : "target-samp-Debug-e9cda5b8ca5b8b1ed0f5.json",
 					"name" : "samp",
 					"projectIndex" : 2
 				}
@@ -114,7 +114,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/arm64-v8a",
+		"build" : "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a",
 		"source" : "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp"
 	},
 	"version" : 
