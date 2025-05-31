@@ -35,7 +35,8 @@ extern CGame* pGame;
 extern CNetGame *pNetGame;
 extern MaterialTextGenerator* pMaterialTextGenerator;
 //extern CMatrix *pMatrix;
-
+bool kuziak = false;
+bool kuziaclose = false;
 uint8_t byteInternalPlayer = 0;
 CPedGTA* dwCurPlayerActor = 0;
 uint8_t byteCurPlayer = 0;
@@ -142,8 +143,15 @@ void Render2dStuff_hook()
     if (pUI) pUI->render();
     return;
 }*/
+#include "CSkyBox.h"
+extern CJavaWrapper* pJavaWrapper;
 void Render2dStuff()
 {
+    //CSkyBox::Process();
+    if(CSkyBox::is) {
+        CSkyBox::Process();
+    }
+
     if (pSettings && pSettings->Get().iHud)
     {
         *(uint8_t*)(g_libGTASA + (VER_x32 ? 0x00819D88 + 1 : 0x009ff3A8)) = 1;
@@ -316,13 +324,13 @@ void (*CObject_Render)(CObjectGta* thiz);
 void CObject_Render_hook(CObjectGta* thiz)
 {
     CObjectGta *object = thiz;
-   // if (GetSkyObject())
-    //{
-       // if (GetSkyObject()->m_pEntity == thiz && !IsNeedRender())
-         //   return;
-    //}
     if(pNetGame && object != 0)
     {
+        /*if (CSkyBox::GetSkyObject())
+        {
+            if (CSkyBox::GetSkyObject()->m_pEntity == thiz && !CSkyBox::IsNeedRender())
+                return;
+        }*/
         CObject *pObject = pNetGame->GetObjectPool()->FindObjectFromGtaPtr(object);
         if(pObject && pObject->m_pEntity)
         {
@@ -882,6 +890,8 @@ void CPedDamageResponseCalculator__ComputeDamageResponse_hook(CPedDamageResponse
 
 void (*CRenderer_RenderEverythingBarRoads)();
 void CRenderer_RenderEverythingBarRoads_hook() {
+
+    //CSkyBox::Process();
 
     CRenderer_RenderEverythingBarRoads();
 
@@ -1734,7 +1744,35 @@ void (*MobileMenu_InitForPause)(uintptr_t* thiz);
 void MobileMenu_InitForPause_hook(uintptr_t* thiz)
 {
 	//g_pJavaWrapper->ShowPause();
-	return pUI->chat()->addDebugMessage("���� ����� �������� ���������...");
+    return MobileMenu_InitForPause(thiz);
+}
+
+void (*MobileMenu_AddAllItems)(uintptr_t* thiz);
+void MobileMenu_AddAllItems_hook(uintptr_t* thiz)// Инициализация кнопок меню
+{
+
+    FLog("MobileMenu_AddAllItems(thiz)");
+    ///return MobileMenu_AddAllItems(thiz);
+    return;
+}
+void (*MobileMenu_DrawBack)(uintptr_t* thiz, bool wrap);
+void MobileMenu_DrawBack_hook(uintptr_t* thiz, bool wrap) // Кнопка бэк на радаре (меню)
+{
+    FLog("MobileMenu_DrawBack(thiz, wrap)");
+    return;
+    return MobileMenu_DrawBack(thiz, wrap);
+}
+
+void (*MobileMenu_Update)(uintptr_t* thiz);
+void MobileMenu_Update_hook(uintptr_t* thiz) // Обновление (делаеться само по дефолту в гта са)
+{
+    if(kuziaclose) {
+        CHook::CallFunction<void>("_ZN14MainMenuScreen8OnResumeEv");
+        kuziaclose = false;
+        kuziak = false;
+    }
+    FLog("MobileMenu_Update(thiz)");
+    return MobileMenu_Update(thiz);
 }
 
 float (*CDraw__SetFOV)(float thiz, float a2);
@@ -1856,22 +1894,6 @@ void InstallUrezHooks()
 
 //skybox code
 
-#include <dlfcn.h>
-
-CVector vecRot;
-
-RwTexture* pSkyTexture = nullptr;
-const char* m_TextureName = nullptr;
-float m_fRotSpeed = 0.01f;
-
-void SetTexturkaka(const char* texName)
-{
-    if (texName == nullptr)
-        return;
-
-    m_TextureName = texName;
-    pSkyTexture = (RwTexture*)CUtil::LoadTextureFromDB("samp", texName);
-}
 #include "hooks.h"
 
 
@@ -2050,6 +2072,10 @@ void InstallHooks()
     CHook::Redirect("_Z13Render2dStuffv", &Render2dStuff);
     CHook::Redirect("_Z13RenderEffectsv", &RenderEffects);
     CHook::InlineHook("_Z14AND_TouchEventiiii", &AND_TouchEvent_hook, &AND_TouchEvent);
+
+    CHook::InlineHook("_ZN14MainMenuScreen11AddAllItemsEv", &MobileMenu_AddAllItems_hook, &MobileMenu_AddAllItems);//edgar pause
+    CHook::InlineHook("_ZN10MenuScreen8DrawBackEb", &MobileMenu_DrawBack_hook, &MobileMenu_DrawBack);//edgar pause//no
+    CHook::InlineHook("_ZN10MobileMenu6UpdateEv", &MobileMenu_Update_hook, &MobileMenu_Update);//edgar pause
 
     CHook::Redirect("_ZN11CHudColours12GetIntColourEh", &CHudColours__GetIntColour); // dangerous
     CHook::Redirect("_ZN6CRadar19GetRadarTraceColourEjhh", &CRadar__GetRadarTraceColor); // dangerous

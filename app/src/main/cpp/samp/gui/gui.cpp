@@ -314,7 +314,7 @@ void UI::ProcessPushedTextdraws()
         m_BufferedCommandTextdraws.ReadUnlock();
     }
 }
-
+,
 #include "..//game/sprite2d.h"
 void UI::DrawServerTexture() {
     // получаем размеры экрана
