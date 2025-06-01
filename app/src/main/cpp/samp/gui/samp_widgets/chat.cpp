@@ -108,8 +108,10 @@ void Chat::keyboardEvent(const std::string& input)
     {
         if (input[0] == '/')
         {
-            pUI->chat()->commandClient(input.c_str());
-            pNetGame->SendChatCommand(input.c_str()); //--
+            if(!pUI->chat()->commandClient(input.c_str());)
+            {
+                pNetGame->SendChatCommand(input.c_str());
+            }
         }
         else
             pNetGame->SendChatMessage(input.c_str());
@@ -118,14 +120,7 @@ void Chat::keyboardEvent(const std::string& input)
 
 bool Chat::commandClient(const std::string& command) //--
 {
-	if(command == "/test_hud")
-	{
-		pUI->chat()->addDebugMessage("Тест худа");
-        pJavaWrapper->ShowHud();
-		return true;
-	}
-
-    /*if(command == OBF("/dl"))
+	/*if(command == OBF("/dl"))
     {
         pUI->chat()->addDebugMessage("debug started");
 
@@ -138,7 +133,6 @@ bool Chat::commandClient(const std::string& command) //--
             pUI->DrawTextureInfo(m_pEntityPointer);
         }
     }*/
-
 
     return false;
 }
