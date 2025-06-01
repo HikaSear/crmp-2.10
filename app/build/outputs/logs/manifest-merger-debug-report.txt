@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:40:9-48:20
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:40:9-48:20
 	android:grantUriPermissions
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:44:13-47
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:44:13-47
 	android:authorities
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:42:13-60
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:42:13-60
 	android:exported
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:41:13-62
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:41:13-62
 manifest
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\timil\.gradle\caches\8.9\transforms\6c8cd84d17670b0c6ae017f040829df5\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\timil\.gradle\caches\8.9\transforms\5932fcb2284d7813560e7eea5a05f667\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\timil\.gradle\caches\8.9\transforms\3f58e8562b54960bf7bfcc5c1b0db127\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -91,27 +91,27 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\timil\.gradle\caches\8.9\trans
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\timil\.gradle\caches\8.9\transforms\b0bac5064040d13a8d9d10123a658aaf\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\timil\.gradle\caches\8.9\transforms\85016631ab7fc0a62d25a9783e470730\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:4:5-35
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:4:5-35
 uses-permission#INSTALL_PACKAGES
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:5-56
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:5-56
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:22-53
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:22-53
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:5-76
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:5-76
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:22-73
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:5-68
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:26:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\5b7518cd4e7003f2ef0b347abf767154\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
@@ -125,17 +125,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:22-65
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\timil\.gradle\caches\8.9\transforms\972012b1bfcc9e8305b5116ea9802a40\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\timil\.gradle\caches\8.9\transforms\972012b1bfcc9e8305b5116ea9802a40\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\5b7518cd4e7003f2ef0b347abf767154\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:22:5-67
@@ -151,17 +151,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:22-63
 uses-permission#android.permission.ACCESS_ALL_DOWNLOADS
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:5-79
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\timil\.gradle\caches\8.9\transforms\972012b1bfcc9e8305b5116ea9802a40\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:24:5-79
@@ -181,42 +181,42 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\e88d9e63c426ba26db6dbce03deb6ff2\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:22-76
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#com.android.vending.CHECK_LICENSE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:5-73
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:5-73
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:22-70
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:22-70
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:5-68
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:5-68
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:22-65
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:22-65
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:5-75
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:22-73
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:22-73
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:5-77
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:5-77
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:22-74
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:22-74
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:5-83
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:5-83
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:22-80
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:22-80
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:5-82
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:22-79
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:22-79
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:5-71
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:5-71
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:22-68
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:22-68
 application
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\timil\.gradle\caches\8.9\transforms\5932fcb2284d7813560e7eea5a05f667\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\timil\.gradle\caches\8.9\transforms\5932fcb2284d7813560e7eea5a05f667\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\timil\.gradle\caches\8.9\transforms\3f58e8562b54960bf7bfcc5c1b0db127\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -274,87 +274,87 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.13.0] C:\Users\timil\.gradle
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\timil\.gradle\caches\8.9\transforms\512b5215cc59bb7a8e1a1a3c6a3d91da\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\timil\.gradle\caches\8.9\transforms\512b5215cc59bb7a8e1a1a3c6a3d91da\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 	android:requestLegacyExternalStorage
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:26:9-52
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:26:9-52
 	android:windowSoftInputMode
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:38:9-52
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:38:9-52
 	android:roundIcon
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:34:9-54
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:34:9-54
 	android:gwpAsanMode
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:25:9-37
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:25:9-37
 	android:largeHeap
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:31:9-33
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:31:9-33
 	android:icon
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:29:9-43
 	android:banner
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:27:9-45
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:27:9-45
 	android:networkSecurityConfig
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:33:9-69
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:33:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\timil\.gradle\caches\8.9\transforms\34b16aa225b2b5b979beb27364ee9929\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:35:9-35
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:35:9-35
 	android:label
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:32:9-41
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:32:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:28:9-44
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:28:9-44
 	android:allowBackup
 		ADDED from [com.github.smarteist:autoimageslider:1.4.0] C:\Users\timil\.gradle\caches\8.9\transforms\85105410bb7d397f154e7875ae757e03\transformed\autoimageslider-1.4.0\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:36:9-65
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:36:9-65
 	android:isGame
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:30:9-30
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:30:9-30
 	android:usesCleartextTraffic
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:37:9-44
-activity#com.samp.mobile.launcher.activity.MainActivity
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:51:9-57:20
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:37:9-44
+activity#com.samp.mobile.game.launcher.activity.MainActivity
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:51:9-57:20
 	android:screenOrientation
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:53:13-50
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:53:13-50
 	android:windowSoftInputMode
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:55:13-56
 	android:exported
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:56:13-36
 	android:theme
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:54:13-63
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:54:13-63
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:52:13-74
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:52:13-64
 activity#com.samp.mobile.game.SAMP
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:59:9-71:20
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:59:9-71:20
 	android:screenOrientation
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:61:13-50
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:61:13-50
 	android:launchMode
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:64:13-44
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:64:13-44
 	android:windowSoftInputMode
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:65:13-52
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:65:13-52
 	android:exported
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:66:13-36
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:66:13-36
 	android:configChanges
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:63:13-90
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:63:13-90
 	android:theme
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:62:13-63
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:62:13-63
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:60:13-53
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:60:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:67:13-70:29
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:67:13-70:29
 action#android.intent.action.MAIN
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:17-69
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:17-69
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:25-66
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:17-77
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:17-77
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:27-74
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:27-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:45:13-47:58
+ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:45:13-47:58
 	android:resource
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:47:17-55
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:47:17-55
 	android:name
-		ADDED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:46:17-67
+		ADDED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:46:17-67
 uses-sdk
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
-INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\timil\.gradle\caches\8.9\transforms\6c8cd84d17670b0c6ae017f040829df5\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\timil\.gradle\caches\8.9\transforms\6c8cd84d17670b0c6ae017f040829df5\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\timil\.gradle\caches\8.9\transforms\5932fcb2284d7813560e7eea5a05f667\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
@@ -506,9 +506,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\timil\.gradle\ca
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\timil\.gradle\caches\8.9\transforms\85016631ab7fc0a62d25a9783e470730\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\timil\.gradle\caches\8.9\transforms\85016631ab7fc0a62d25a9783e470730\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from [com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:25:5-77
 	android:name

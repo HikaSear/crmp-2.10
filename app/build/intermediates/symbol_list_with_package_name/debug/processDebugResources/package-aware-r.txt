@@ -2829,6 +2829,7 @@ drawable ic_settingsmenu_on
 drawable ic_social_telegram
 drawable ic_social_vk
 drawable ic_social_youtube
+drawable ic_star
 drawable ic_star_on
 drawable ic_story_stroke
 drawable ic_toggle_off
@@ -3270,7 +3271,7 @@ id header_layout
 id header_title
 id health_bg
 id health_icon
-id health_text
+id healthtext
 id hideable
 id holo_dark
 id holo_light
@@ -3318,6 +3319,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loading_percent
 id main_but_input_next
 id main_but_input_prev
 id main_but_input_slash
@@ -3348,6 +3350,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menu_layout
 id message
 id middle
 id mileagebg
@@ -3594,6 +3597,9 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wanted_bg
+id wanted_icon
+id wantedtext
 id weaponBG
 id weapon_ammo_image
 id weapon_ammo_text
@@ -3714,6 +3720,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout menu_layout
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

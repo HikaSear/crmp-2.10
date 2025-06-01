@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus
+# Install script for directory: C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,28 +43,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/libopus.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/libopus.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opus" TYPE FILE FILES
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus.h"
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_defines.h"
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_multistream.h"
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_projection.h"
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_types.h"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus.h"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_defines.h"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_multistream.h"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_projection.h"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/opus/include/opus_types.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/opus.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/opus.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus/OpusTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus/OpusTargets.cmake"
-         "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets.cmake")
+         "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus/OpusTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -73,16 +73,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus" TYPE FILE FILES "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus" TYPE FILE FILES "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus" TYPE FILE FILES "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus" TYPE FILE FILES "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/CMakeFiles/Export/lib/cmake/Opus/OpusTargets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Opus" TYPE FILE FILES
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/OpusConfig.cmake"
-    "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/OpusConfigVersion.cmake"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/OpusConfig.cmake"
+    "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/OpusConfigVersion.cmake"
     )
 endif()
 

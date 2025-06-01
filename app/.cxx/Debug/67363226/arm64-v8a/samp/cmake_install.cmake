@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp/samp
+# Install script for directory: C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp/samp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -5,6 +5,7 @@
 #include <algorithm>
 #include "../settings.h"
 #include "java/jniutil.h"
+#include "../obfusheader.h"
 
 extern UI* pUI;
 extern CGame* pGame;
@@ -123,6 +124,21 @@ bool Chat::commandClient(const std::string& command) //--
         pJavaWrapper->ShowHud();
 		return true;
 	}
+
+    /*if(command == OBF("/dl"))
+    {
+        pUI->chat()->addDebugMessage("debug started");
+
+        uint32_t ms_nNoOfVisibleEntities = *(uint32_t*)(g_libGTASA + (VER_x32 ? 0x00960b64 : 0x00bcf8e4)); //.bss:008C162C                 EXPORT _ZN9CRenderer23ms_nNoOfVisibleEntitiesE
+
+        uintptr_t* ms_aVisibleEntityPtrs = (uintptr_t*)(g_libGTASA + (VER_x32 ? 0x00960b80 : 0x00bcf900));//.bss:008C0680                 EXPORT _ZN9CRenderer21ms_aVisibleEntityPtrsE
+
+        uintptr_t m_pEntityPointer = (uintptr_t)ms_aVisibleEntityPtrs[ms_nNoOfVisibleEntities];
+        if (m_pEntityPointer) {
+            pUI->DrawTextureInfo(m_pEntityPointer);
+        }
+    }*/
+
 
     return false;
 }

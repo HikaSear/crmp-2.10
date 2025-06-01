@@ -75,7 +75,7 @@ rule CXX_SHARED_LIBRARY_LINKER__samp_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\timil\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\cpp -BC:\Projects\AndroidStudio\GTA-2.10-SAMP\app\.cxx\Debug\67363226\armeabi-v7a
+  command = C:\Users\timil\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\cpp -BC:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\.cxx\Debug\67363226\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

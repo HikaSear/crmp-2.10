@@ -58,7 +58,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.joom.paranoid.Obfuscate;
 import com.samp.mobile.R;
 import com.samp.mobile.game.ui.HudManager;
-import com.samp.mobile.launcher.fragment.MainFragment;
+import com.samp.mobile.launcher.MenuGame;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -125,9 +125,9 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
 
     private SurfaceView mSurfaceView = null;
 
-    public MainFragment mainFragment;
 
     private HudManager mHudManager = null;
+    private MenuGame mMenuGame = null;
 
     //private HeightProvider mHeightProvider = null;
 
@@ -401,6 +401,9 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
     public void showHud() { runOnUiThread(() -> { mHudManager.ShowHud(); }); }
     public void hideHud() { runOnUiThread(() -> { mHudManager.HideHud(); }); }
 
+    public void showGMenu() { runOnUiThread(() -> { mMenuGame.ShowGMenu(); }); }
+    public void hideGMenu() { runOnUiThread(() -> { mMenuGame.HideGMenu(); }); }
+
     public native void pauseEvent();
 		public native void resumeEvent();
 		public native boolean touchEvent(int action, int x, int y, MotionEvent event);
@@ -433,7 +436,6 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
         System.out.println("**** onCreate");
         super.onCreate(savedInstanceState);
 
-        mainFragment = new MainFragment();
 
 		if(supportPauseResume)
 		{
@@ -448,6 +450,7 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
         NvAPKFileHelper.getInstance().setContext(this);
 
         mHudManager = new HudManager(this);
+        mMenuGame = new MenuGame(this);
 
         display = ((WindowManager)this.getSystemService(WINDOW_SERVICE)).getDefaultDisplay();
 

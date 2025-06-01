@@ -10,56 +10,56 @@
 10        android:targetSdkVersion="34" />
 11
 12    <uses-permission android:name="INSTALL_PACKAGES" />
-12-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:5-56
-12-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:22-53
+12-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:5-56
+12-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:6:22-53
 13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-13-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:5-76
-13-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:22-73
+13-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:7:22-73
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:5-68
-14-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:22-65
+14-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:8:22-65
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:5-80
-15-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:22-77
+15-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:9:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:5-81
-16-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:22-78
+16-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:10:22-78
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:5-67
-17-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:22-64
+17-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:11:22-64
 18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:5-66
-18-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:22-63
+18-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:12:22-63
 19    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
-19-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:5-79
-19-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:22-76
+19-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:13:22-76
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:5-79
-20-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:22-76
+20-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:5-79
+20-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:14:22-76
 21    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-21-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:5-73
-21-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:22-70
+21-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:5-73
+21-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:15:22-70
 22    <uses-permission android:name="android.permission.BLUETOOTH" />
-22-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:5-68
-22-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:22-65
+22-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:5-68
+22-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:16:22-65
 23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-23-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:5-75
-23-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:22-73
+23-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:5-75
+23-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:17:22-73
 24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-24-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:5-81
-24-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:22-78
+24-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:5-81
+24-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:18:22-78
 25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-25-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:5-77
-25-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:22-74
+25-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:5-77
+25-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:19:22-74
 26    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-26-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:5-83
-26-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:22-80
+26-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:5-83
+26-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:20:22-80
 27    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-27-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:5-82
-27-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:22-79
+27-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:5-82
+27-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:21:22-79
 28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-28-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:5-71
-28-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:22-68
+28-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:5-71
+28-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:22:22-68
 29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 29-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:25:5-77
 29-->[com.google.firebase:firebase-messaging:23.1.1] C:\Users\timil\.gradle\caches\8.9\transforms\bd74a9c4518e0b1b50f3d8e8fb6b896e\transformed\firebase-messaging-23.1.1\AndroidManifest.xml:25:22-74
@@ -74,96 +74,96 @@
 32-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\timil\.gradle\caches\8.9\transforms\19f0fbca03816584bc915c24f887df77\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
 33
 34    <application
-34-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
+34-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:24:5-72:19
 35        android:allowBackup="true"
 35-->[com.github.smarteist:autoimageslider:1.4.0] C:\Users\timil\.gradle\caches\8.9\transforms\85105410bb7d397f154e7875ae757e03\transformed\autoimageslider-1.4.0\AndroidManifest.xml:12:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 36-->[androidx.core:core:1.3.2] C:\Users\timil\.gradle\caches\8.9\transforms\34b16aa225b2b5b979beb27364ee9929\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
 37        android:banner="@mipmap/ic_launcher"
-37-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:27:9-45
+37-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:27:9-45
 38        android:extractNativeLibs="false"
 39        android:gwpAsanMode="always"
-39-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:25:9-37
+39-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:25:9-37
 40        android:hardwareAccelerated="false"
-40-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:28:9-44
+40-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:28:9-44
 41        android:icon="@mipmap/ic_launcher"
-41-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:29:9-43
+41-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:29:9-43
 42        android:isGame="true"
-42-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:30:9-30
+42-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:30:9-30
 43        android:label="@string/app_name"
-43-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:32:9-41
+43-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:32:9-41
 44        android:largeHeap="true"
-44-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:31:9-33
+44-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:31:9-33
 45        android:networkSecurityConfig="@xml/network_security_config"
-45-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:33:9-69
+45-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:33:9-69
 46        android:requestLegacyExternalStorage="true"
-46-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:26:9-52
+46-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:26:9-52
 47        android:roundIcon="@mipmap/ic_launcher_round"
-47-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:34:9-54
+47-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:34:9-54
 48        android:supportsRtl="true"
-48-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:35:9-35
+48-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:35:9-35
 49        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-49-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:36:9-65
+49-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:36:9-65
 50        android:usesCleartextTraffic="true"
-50-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:37:9-44
+50-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:37:9-44
 51        android:windowSoftInputMode="adjustNothing" >
-51-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:38:9-52
+51-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:38:9-52
 52        <provider
 53            android:name="androidx.core.content.FileProvider"
-53-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:41:13-62
+53-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:41:13-62
 54            android:authorities="com.samp.mobile.provider"
-54-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:42:13-60
+54-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:42:13-60
 55            android:exported="false"
-55-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:43:13-37
+55-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:43:13-37
 56            android:grantUriPermissions="true" >
-56-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:44:13-47
+56-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:44:13-47
 57            <meta-data
-57-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:45:13-47:58
+57-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:45:13-47:58
 58                android:name="android.support.FILE_PROVIDER_PATHS"
-58-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:46:17-67
+58-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:46:17-67
 59                android:resource="@xml/provider_paths" />
-59-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:47:17-55
+59-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:47:17-55
 60        </provider>
 61
 62        <!-- MainActivity с явным android:exported -->
 63        <activity
-63-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:51:9-57:20
-64            android:name="com.samp.mobile.launcher.activity.MainActivity"
-64-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:52:13-74
+63-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:51:9-57:20
+64            android:name="com.samp.mobile.game.launcher.activity.MainActivity"
+64-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:52:13-64
 65            android:exported="true"
-65-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:56:13-36
+65-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:56:13-36
 66            android:screenOrientation="landscape"
-66-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:53:13-50
+66-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:53:13-50
 67            android:theme="@style/Theme.AppCompat.NoActionBar"
-67-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:54:13-63
+67-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:54:13-63
 68            android:windowSoftInputMode="adjustNothing" >
-68-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:55:13-56
+68-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:55:13-56
 69        </activity>
 70        <activity
-70-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:59:9-71:20
+70-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:59:9-71:20
 71            android:name="com.samp.mobile.game.SAMP"
-71-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:60:13-53
+71-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:60:13-53
 72            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-72-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:63:13-90
+72-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:63:13-90
 73            android:exported="true"
-73-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:66:13-36
+73-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:66:13-36
 74            android:launchMode="singleTask"
-74-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:64:13-44
+74-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:64:13-44
 75            android:screenOrientation="landscape"
-75-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:61:13-50
+75-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:61:13-50
 76            android:theme="@style/Theme.AppCompat.NoActionBar"
-76-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:62:13-63
+76-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:62:13-63
 77            android:windowSoftInputMode="adjustPan" >
-77-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:65:13-52
+77-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:65:13-52
 78            <intent-filter>
-78-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:67:13-70:29
+78-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:67:13-70:29
 79                <action android:name="android.intent.action.MAIN" />
-79-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:17-69
-79-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:25-66
+79-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:17-69
+79-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:68:25-66
 80
 81                <category android:name="android.intent.category.LAUNCHER" />
-81-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:17-77
-81-->C:\Projects\AndroidStudio\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:27-74
+81-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:17-77
+81-->C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\src\main\AndroidManifest.xml:69:27-74
 82            </intent-filter>
 83        </activity>
 84

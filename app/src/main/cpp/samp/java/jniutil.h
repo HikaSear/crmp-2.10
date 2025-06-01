@@ -27,6 +27,9 @@ public:
     void ShowHud();
     void HideHud();
 
+    void ShowGMenu();
+    void HideGMenu();
+
     void SetTab(int id, char* names, int score, int pings);
     void ClearTab();
     
@@ -62,8 +65,9 @@ public:
 	jmethodID s_exitGame;
 	jmethodID s_showEditObject;
 	jmethodID s_hideEditObject;
-
     jmethodID s_showHud;
     jmethodID s_hideHud;
     jmethodID s_updateHudInfo;
+    jmethodID s_showGMenu;
+    jmethodID s_hideGMenu;
 };

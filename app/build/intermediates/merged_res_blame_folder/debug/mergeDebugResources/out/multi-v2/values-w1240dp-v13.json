@@ -4,7 +4,7 @@
             "outputFile": "com.samp.mobile.app-mergeDebugResources-3:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

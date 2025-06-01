@@ -30,7 +30,6 @@ CSettings::CSettings()
 	m_Settings.szNickName[length] = '\0';
 	length = reader.Get("client", "password", "").copy(m_Settings.szPassword, MAX_SETTINGS_STRING);
 	m_Settings.szPassword[length] = '\0';
-	m_Settings.iServerID = reader.GetInteger("client", "serverid", 1);
 
 	// debug
 	m_Settings.bDebug = reader.GetBoolean("debug", "debug", false);

@@ -38,6 +38,9 @@ CJavaWrapper::CJavaWrapper(JNIEnv *env, jobject activity)
     s_showHud = env->GetMethodID(clas, "showHud", "()V");
     s_hideHud = env->GetMethodID(clas, "hideHud", "()V");
 
+    s_showGMenu = env->GetMethodID(clas, "showGMenu", "()V");
+    s_hideGMenu = env->GetMethodID(clas, "hideGMenu", "()V");
+
     env->DeleteLocalRef(clas);
 }
 
@@ -179,8 +182,7 @@ void CJavaWrapper::ShowHud()
         FLog("No env");
         return;
     }
-    //g_pJavaWrapper->ShowNotification(4, "HUD показан.", 5, "", "Хорошо");
-    env->CallVoidMethod(this->activity, this->s_showHud);
+    env->CallVoidMethod(this->activity, this->s_showGMenu);
 }
 
 void CJavaWrapper::HideHud()
@@ -193,7 +195,32 @@ void CJavaWrapper::HideHud()
         FLog("No env");
         return;
     }
-    //g_pJavaWrapper->ShowNotification(4, "HUD скрыт.", 5, "", "Хорошо");
+    env->CallVoidMethod(this->activity, this->s_hideGMenu);
+}
+
+void CJavaWrapper::ShowGMenu() {
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+
+    env->CallVoidMethod(this->activity, this->s_hideHud);
+}
+
+void CJavaWrapper::HideGMenu() {
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+
     env->CallVoidMethod(this->activity, this->s_hideHud);
 }
 

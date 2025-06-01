@@ -365,6 +365,7 @@ drawable ic_settingsmenu_on
 drawable ic_social_telegram
 drawable ic_social_vk
 drawable ic_social_youtube
+drawable ic_star
 drawable ic_star_on
 drawable ic_story_stroke
 drawable ic_toggle_off
@@ -559,7 +560,7 @@ id guideline47
 id header_layout
 id health_bg
 id health_icon
-id health_text
+id healthtext
 id holo_dark
 id holo_light
 id hud_main
@@ -572,6 +573,7 @@ id item_field1
 id item_field2
 id item_field3
 id item_field4
+id loading_percent
 id main_but_input_next
 id main_but_input_prev
 id main_but_input_slash
@@ -581,6 +583,7 @@ id main_input
 id main_layout
 id main_sv
 id match_parent
+id menu_layout
 id mileagebg
 id moneyBG
 id money_text
@@ -625,6 +628,9 @@ id textView15
 id textView4
 id textView56
 id ui_layout
+id wanted_bg
+id wanted_icon
+id wantedtext
 id weaponBG
 id weapon_ammo_image
 id weapon_ammo_text
@@ -642,6 +648,7 @@ layout hud
 layout layout_keyboard
 layout loadingscreen
 layout main_render_screen
+layout menu_layout
 layout serverlist_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground

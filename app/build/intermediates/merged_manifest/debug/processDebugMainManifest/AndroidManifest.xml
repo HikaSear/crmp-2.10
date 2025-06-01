@@ -61,7 +61,7 @@
 
         <!-- MainActivity с явным android:exported -->
         <activity
-            android:name="com.samp.mobile.launcher.activity.MainActivity"
+            android:name="com.samp.mobile.game.launcher.activity.MainActivity"
             android:exported="true"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar"

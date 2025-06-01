@@ -52,4 +52,5 @@
     <item name="btn_settings" type="id" />
     <item name="guideline27" type="id" />
     <item name="guideline28" type="id" />
+    <item name="loading_percent" type="id" />
 </resources>

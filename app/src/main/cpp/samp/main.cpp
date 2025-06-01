@@ -60,7 +60,7 @@ void FLog(const char* fmt, ...);
 //void MyLog(const char* fmt, ...);
 
 int work = 0;
-bool serverConnect = false;
+
 
 void ReadSettingFile()
 {
@@ -271,34 +271,31 @@ void DoInitStuff() {
         bGameInited = true;
     }
 
-    if (!bNetworkInited && !bDebug  && !serverConnect) {
+    if (!bNetworkInited && !bDebug) {
 
-        int serverid = pSettings->GetReadOnly().iServerID;
+        CPlayerPed* pPlayerPed = pGame->FindPlayerPed();
 
-        if (serverid == 0)
+        if (pPlayerPed->IsInVehicle())
         {
-            pNetGame = new CNetGame(SERVER_HOST_TEST, SERVER_PORT_TEST, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            pPlayerPed->RemoveFromVehicleAndPutAt(1093.4, -2036.5, 82.710602);
         }
-        else if (serverid == 1)
+        else
         {
-            pNetGame = new CNetGame(SERVER_HOST_1, SERVER_PORT_1, pSettings->Get().szNickName, pSettings->Get().szPassword);
-        }
-        else if (serverid == 2)
-        {
-            pNetGame = new CNetGame(SERVER_HOST_2, SERVER_PORT_2, pSettings->Get().szNickName, pSettings->Get().szPassword);
-        }
-        else if (serverid == 3)
-        {
-            pNetGame = new CNetGame(SERVER_HOST_3, SERVER_PORT_3, pSettings->Get().szNickName, pSettings->Get().szPassword);
-        }
-        else if (serverid == 4)
-        {
-            pNetGame = new CNetGame(SERVER_HOST_4, SERVER_PORT_4, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            pPlayerPed->m_pPed->SetPosn(-391.4141, 73.0535, 13.6677);
         }
 
+        CCamera::SetPosition(-292.2141, 73.0535, 13.5891, 0.0, 0.0, 0.0);
+        CCamera::LookAtPoint(-291.4141, 73.0535, 13.6677, 2);
+
+        pGame->SetWorldWeather(1);
+        pGame->DisplayHUD(false);
+        pPlayerPed->TogglePlayerControllable(false);
+        pJavaWrapper->ShowGMenu();
+
+        CPlayerPed* fufy = new CPlayerPed(35, 122, -288.00f, 72.0f, 13.6965f, 80.0f);
+        pJavaWrapper->HideLoadingScreen();
         bNetworkInited = true;
-        pUI->chat()->addDebugMessage("Connected to server... {622cf5}ID: %d", serverid);
-
+        FLog("No env");
 
         FLog("DoInitStuff end");
     }
@@ -346,6 +343,33 @@ extern "C" {
 			pUI->keyboard()->sendForGB(pEnv, thiz, str);
 		}
 	}
+    JNIEXPORT void JNICALL Java_com_samp_mobile_launcher_activity_MainAcivity_ConnectToServer(JNIEnv *pEnv, jobject thiz, jint serverid)
+    {
+        if (serverid == 0)
+        {
+            pNetGame = new CNetGame(SERVER_HOST_TEST, SERVER_PORT_TEST, pSettings->Get().szNickName, "");
+        }
+        else if (serverid == 1)
+        {
+            pNetGame = new CNetGame(SERVER_HOST_1, SERVER_PORT_1, pSettings->Get().szNickName, "");
+        }
+        else if (serverid == 2)
+        {
+            pNetGame = new CNetGame(SERVER_HOST_2, SERVER_PORT_2, pSettings->Get().szNickName, "");
+        }
+        else if (serverid == 3)
+        {
+            pNetGame = new CNetGame(SERVER_HOST_3, SERVER_PORT_3, pSettings->Get().szNickName, "");
+        }
+        else if (serverid == 4)
+        {
+            pNetGame = new CNetGame(SERVER_HOST_4, SERVER_PORT_4, pSettings->Get().szNickName, "");
+        }
+
+        pJavaWrapper->HideGMenu();
+        bNetworkInited = true;
+        pUI->chat()->addDebugMessage("Connected to server... {622cf5}ID: %d", serverid);
+    }
 	JNIEXPORT void JNICALL Java_com_samp_mobile_game_SAMP_onEventBackPressed(JNIEnv *pEnv, jobject thiz)
 	{
 		if(pSettings)

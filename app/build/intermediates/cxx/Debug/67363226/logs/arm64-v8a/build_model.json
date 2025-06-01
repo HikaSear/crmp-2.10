@@ -8,9 +8,9 @@
     "triple": "aarch64-linux-android",
     "llvmTriple": "aarch64-none-linux-android"
   },
-  "cxxBuildFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\arm64-v8a",
-  "soFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
-  "soRepublishFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "cxxBuildFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\arm64-v8a",
+  "soFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
+  "soRepublishFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
   "abiPlatformVersion": 26,
   "cmake": {
     "effectiveConfiguration": {
@@ -32,13 +32,13 @@
     "implicitBuildTargetSet": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "module": {
-      "cxxFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx",
-      "intermediatesBaseFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates",
-      "intermediatesFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx",
+      "cxxFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx",
+      "intermediatesBaseFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates",
+      "intermediatesFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx",
       "gradleModulePathName": ":app",
-      "moduleRootFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app",
-      "moduleBuildFile": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build.gradle",
-      "makeFile": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleRootFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app",
+      "moduleBuildFile": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build.gradle",
+      "makeFile": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\src\\main\\cpp\\CMakeLists.txt",
       "buildSystem": "CMAKE",
       "ndkFolder": "C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342",
       "ndkFolderBeforeSymLinking": "C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342",
@@ -136,7 +136,7 @@
         "SYSTEM": {}
       },
       "project": {
-        "rootBuildGradleFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP",
+        "rootBuildGradleFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP",
         "sdkFolder": "C:\\Users\\timil\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
@@ -159,12 +159,12 @@
   "buildSettings": {
     "environmentVariables": []
   },
-  "prefabFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\prefab\\arm64-v8a",
+  "prefabFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\prefab\\arm64-v8a",
   "isActiveAbi": true,
   "fullConfigurationHash": "6736322691t3ow4g16246x6s613s3l5q5q37436x3b2m6z2x5r6y5d4j4q6m6h",
   "fullConfigurationHashKey": "# Values used to calculate the hash in this folder name.\n# Should not depend on the absolute path of the project itself.\n#   - AGP: 8.4.0.\n#   - $NDK is the path to NDK 26.2.11394342.\n#   - $PROJECT is the path to the parent folder of the root Gradle build file.\n#   - $ABI is the ABI to be built with. The specific value doesn\u0027t contribute to the value of the hash.\n#   - $HASH is the hash value computed from this text.\n#   - $CMAKE is the path to CMake 3.22.1.\n#   - $NINJA is the path to Ninja.\n-H$PROJECT/app/src/main/cpp\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d26\n-DANDROID_PLATFORM\u003dandroid-26\n-DANDROID_ABI\u003d$ABI\n-DCMAKE_ANDROID_ARCH_ABI\u003d$ABI\n-DANDROID_NDK\u003d$NDK\n-DCMAKE_ANDROID_NDK\u003d$NDK\n-DCMAKE_TOOLCHAIN_FILE\u003d$NDK/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d$NINJA\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d$PROJECT/app/build/intermediates/cxx/Debug/$HASH/obj/$ABI\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_FIND_ROOT_PATH\u003d$PROJECT/app/.cxx/Debug/$HASH/prefab/$ABI/prefab\n-B$PROJECT/app/.cxx/Debug/$HASH/$ABI\n-GNinja",
   "configurationArguments": [
-    "-HC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\cpp",
+    "-HC:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\src\\main\\cpp",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_SYSTEM_VERSION\u003d26",
@@ -175,12 +175,12 @@
     "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342",
     "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342\\build\\cmake\\android.toolchain.cmake",
     "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
-    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
-    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226\\obj\\arm64-v8a",
     "-DCMAKE_BUILD_TYPE\u003dDebug",
-    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\prefab\\arm64-v8a\\prefab",
-    "-BC:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\arm64-v8a",
+    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\prefab\\arm64-v8a\\prefab",
+    "-BC:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\arm64-v8a",
     "-GNinja"
   ],
-  "intermediatesParentFolder": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226"
+  "intermediatesParentFolder": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\build\\intermediates\\cxx\\Debug\\67363226"
 }

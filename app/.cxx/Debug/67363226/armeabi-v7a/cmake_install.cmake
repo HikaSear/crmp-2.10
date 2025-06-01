@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/src/main/cpp
+# Install script for directory: C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/cmake_install.cmake")
-  include("C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/samp/cmake_install.cmake")
+  include("C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/opus/cmake_install.cmake")
+  include("C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/samp/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Projects/AndroidStudio/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Projects/AndroidStudio/Launchers/GTA-2.10-SAMP/app/.cxx/Debug/67363226/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

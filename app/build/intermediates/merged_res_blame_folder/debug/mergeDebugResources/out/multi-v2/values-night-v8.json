@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Projects\\AndroidStudio\\GTA-2.10-SAMP\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

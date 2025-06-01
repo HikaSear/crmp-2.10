@@ -56,6 +56,10 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\xml\\network_security_config.xml"
     },
     {
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_star.xml"
+    },
+    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_popup_exit.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\popup_exit.xml"
     },
@@ -66,10 +70,6 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_activity_story.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\activity_story.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
@@ -172,6 +172,10 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\scrubber_control_disabled_holo.png"
     },
     {
+        "merged": "com.samp.mobile.app-debug-5:/layout_hud.xml.flat",
+        "source": "com.samp.mobile.app-main-7:/layout/hud.xml"
+    },
+    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\raw_backfire.mp3.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\raw\\backfire.mp3"
     },
@@ -212,20 +216,16 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "com.samp.mobile.app-debug-5:/layout_fragment_main.xml.flat",
-        "source": "com.samp.mobile.app-main-7:/layout/fragment_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_social_vk.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_social_vk.xml"
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\raw_turnlight_tick_1.mp3.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\raw\\turnlight_tick_1.mp3"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_mainmenu_on.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_mainmenu_on.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\raw_turnlight_tick_1.mp3.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\raw\\turnlight_tick_1.mp3"
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_social_vk.xml.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_social_vk.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\font_roboto_bold.ttf.flat",
@@ -254,10 +254,6 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_weapon_12.png.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\weapon_12.png"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_abc_slide_in_top.xml.flat",
@@ -334,10 +330,6 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_alertdialog_server.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\alertdialog_server.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_grow_fade_in_from_bottom.xml.flat",
@@ -432,10 +424,6 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\button_click.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_fragment_story.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\fragment_story.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_abc_tooltip_enter.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\abc_tooltip_enter.xml"
     },
@@ -504,10 +492,6 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\dialog_item.xml"
     },
     {
-        "merged": "com.samp.mobile.app-debug-5:/layout_activity_main.xml.flat",
-        "source": "com.samp.mobile.app-main-7:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_story_stroke.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_story_stroke.xml"
     },
@@ -522,10 +506,6 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\font_montserrat_medium.ttf.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\font\\montserrat_medium.ttf"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_bspeed_layout.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\bspeed_layout.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\font_ttnorms_medium.otf.flat",
@@ -724,10 +704,6 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\weapon_39.png"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_notification.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\notification.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_weapon_43.png.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\weapon_43.png"
     },
@@ -772,12 +748,12 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\popup_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_btn_bg_1.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\btn_bg_1.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\font_montsserat_semibold.ttf.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\font\\montsserat_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_btn_bg_1.xml.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\btn_bg_1.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_weapon_46.png.flat",
@@ -824,12 +800,12 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\progress_drawable_bg.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml"
+        "merged": "com.samp.mobile.app-debug-5:/layout_menu_layout.xml.flat",
+        "source": "com.samp.mobile.app-main-7:/layout/menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_alertdialog_addserver.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\alertdialog_addserver.xml"
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_password_on.xml.flat",
@@ -852,20 +828,16 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\anim\\litele_logo.xml"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_tablayout_item.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\tablayout_item.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_launcher_bg.png.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\launcher_bg.png"
     },
     {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_servers_bg.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\servers_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_ic_launcher_play.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\ic_launcher_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_servers_bg.xml.flat",
+        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\drawable\\servers_bg.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\anim_radial_item_hide.xml.flat",
@@ -924,6 +896,10 @@
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.samp.mobile.app-debug-5:/layout_main_render_screen.xml.flat",
+        "source": "com.samp.mobile.app-main-7:/layout/main_render_screen.xml"
+    },
+    {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_hud.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\hud.xml"
     },
@@ -938,10 +914,6 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\font_montserrat_black.ttf.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\font\\montserrat_black.ttf"
-    },
-    {
-        "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_story_item.xml.flat",
-        "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\story_item.xml"
     },
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\drawable_discord_logo.xml.flat",
@@ -1146,9 +1118,5 @@
     {
         "merged": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-debug-5:\\layout_loadingscreen.xml.flat",
         "source": "C:\\Users\\timil\\.gradle\\daemon\\8.9\\com.samp.mobile.app-main-7:\\layout\\loadingscreen.xml"
-    },
-    {
-        "merged": "com.samp.mobile.app-debug-5:/layout_loadingscreen.xml.flat",
-        "source": "com.samp.mobile.app-main-7:/layout/loadingscreen.xml"
     }
 ]
