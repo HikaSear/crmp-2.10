@@ -1,2 +1,2 @@
-ninja: Entering directory `C:\Projects\AndroidStudio\Launchers\GTA-2.10-SAMP\app\.cxx\Debug\67363226\armeabi-v7a'
+ninja: Entering directory `C:\Users\vadim\Documents\GitHub\crmp-2.10\app\.cxx\Debug\67363226\armeabi-v7a'
 ninja: no work to do.

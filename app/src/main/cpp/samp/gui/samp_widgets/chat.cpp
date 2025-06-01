@@ -108,7 +108,7 @@ void Chat::keyboardEvent(const std::string& input)
     {
         if (input[0] == '/')
         {
-            if(!pUI->chat()->commandClient(input.c_str());)
+            if(!pUI->chat()->commandClient(input.c_str()))
             {
                 pNetGame->SendChatCommand(input.c_str());
             }

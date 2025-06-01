@@ -1,5 +1,5 @@
 @echo off
-"C:\\Users\\timil\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+"C:\\Users\\vadim\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
   -C ^
-  "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\.cxx\\Debug\\67363226\\armeabi-v7a" ^
+  "C:\\Users\\vadim\\Documents\\GitHub\\crmp-2.10\\app\\.cxx\\Debug\\67363226\\armeabi-v7a" ^
   samp

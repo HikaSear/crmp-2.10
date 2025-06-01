@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.samp.mobile.app-mergeDebugResources-3:/values-w600dp-v13/values-w600dp-v13.xml",
+            "outputFile": "com.samp.mobile.app-mergeDebugResources-30:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Projects\\AndroidStudio\\Launchers\\GTA-2.10-SAMP\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\vadim\\Documents\\GitHub\\crmp-2.10\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

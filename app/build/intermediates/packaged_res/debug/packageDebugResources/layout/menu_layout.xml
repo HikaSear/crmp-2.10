@@ -7,12 +7,12 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/btn_play"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:id="@+id/btn_playYY"
+        android:layout_width="140dp"
+        android:layout_height="54dp"
+        android:layout_margin="30dp"
+        android:drawablePadding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_launcher_play_bg" />
+        app:srcCompat="@drawable/launcher_red_buttons_bg" />
 </androidx.constraintlayout.widget.ConstraintLayout>

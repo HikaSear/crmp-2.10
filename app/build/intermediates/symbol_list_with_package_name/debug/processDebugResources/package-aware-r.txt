@@ -2838,6 +2838,8 @@ drawable ic_url
 drawable indeterminate_drawable
 drawable internet
 drawable launcher_bg
+drawable launcher_main_play_ic
+drawable launcher_red_buttons_bg
 drawable logo
 drawable logo_circle
 drawable logo_transperent
@@ -3101,6 +3103,7 @@ id bounceEnd
 id bounceStart
 id btn_close
 id btn_play
+id btn_playYY
 id btn_reinstall_client
 id btn_reinstall_data
 id btn_settings

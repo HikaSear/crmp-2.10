@@ -6,6 +6,7 @@ struct stSettings
 {
 	// client
 	char szNickName[24+1];
+    int iServerID;
     char szPassword[MAX_SETTINGS_STRING+1];
 
 	// debug

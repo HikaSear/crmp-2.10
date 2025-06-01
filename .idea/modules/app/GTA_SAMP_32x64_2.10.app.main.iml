@@ -14,6 +14,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
     <exclude-output />
+    <content url="file://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/prefab/modules/shadowhook/include">
+      <sourceFolder url="file://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/prefab/modules/shadowhook/include" type="native-header-root" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
@@ -33,9 +36,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/cpp" type="native-Source-root" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
-    </content>
-    <content url="file://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/prefab/modules/shadowhook/include">
-      <sourceFolder url="file://$USER_HOME$/.gradle/caches/8.9/transforms/1325c613e119b9eaf83b82fcbec84239/transformed/shadowhook-1.0.9/prefab/modules/shadowhook/include" type="native-header-root" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
