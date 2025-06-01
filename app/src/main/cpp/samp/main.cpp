@@ -238,7 +238,7 @@ void DoInitStuff() {
 
         pUI->splashscreen()->setVisible(false);
         pUI->chat()->setVisible(true);
-        pUI->buttonpanel()->setVisible(true);
+        //pUI->buttonpanel()->setVisible(true);
 
         pGame->Initialize();
         pGame->SetMaxStats();

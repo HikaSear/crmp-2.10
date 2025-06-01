@@ -154,9 +154,9 @@ void InitGame(RPCParameters* rpcParams)
 	pPlayerPool->GetLocalPlayer()->HandleClassSelection();
 
 	
-	if (pUI) {
-		pUI->voicebutton()->setVisible(true);
-	}
+	//if (pUI) {
+		//pUI->voicebutton()->setVisible(true);
+	//}
 
 	/*if (pVoice && pVoice->recorder()->active())
 	{

@@ -51,5 +51,5 @@ target_link_libraries(samp log EGL GLESv3 opus shadowhook::shadowhook ${CMAKE_CU
 
 # Set compilation flags
 #
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w -s -g -fvisibility=hidden -pthread -Wall -O3 -fexceptions")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w -s -g -fvisibility=hidden -pthread -Wall -O1 -fexceptions")
 

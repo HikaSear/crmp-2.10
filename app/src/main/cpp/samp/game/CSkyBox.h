@@ -1,22 +1,36 @@
-//
-// Fixed by vadim on 31.05.2025.
-//
+// psychobye
 
-#ifndef SKYBOX_H
-#define SKYBOX_H
+#pragma once
 
 #include "main.h"
 
 class CObject;
 
-class CSkyBox {
+class Skybox {
 public:
+    static void Initialise();
+
     static void Process();
-    static bool is;
+    static void SetTexture(const char *texName);
+
+    static bool IsNeedRender();
+
+    static CObject *GetSkyObject();
+
+    static void Init();
+
+private:
+    static void ReTexture();
+
+    static uintptr_t RwFrameForAllObjectsCallback(uintptr_t object, CObject* pObject);
+
 private:
     static CObject* m_pSkyBox;
-    static RpAtomic* ObjectMaterialCallBackEdgar(RpAtomic* rpAtomic, CObject* pObject);
-    static void RwPon();
-};
 
-#endif // SKYBOX_H
+    static bool m_bNeedRender;
+
+    static float m_fRotSpeed;
+    static float m_fRotate;
+    static bool is;
+
+};

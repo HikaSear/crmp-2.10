@@ -117,9 +117,10 @@ void Chat::keyboardEvent(const std::string& input)
 
 bool Chat::commandClient(const std::string& command) //--
 {
-	if(command == "/test")
+	if(command == "/test_hud")
 	{
-		pUI->chat()->addDebugMessage("Ебать, что за наху");
+		pUI->chat()->addDebugMessage("Тест худа");
+        pJavaWrapper->ShowHud();
 		return true;
 	}
 

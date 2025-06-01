@@ -23,6 +23,10 @@ public:
     void ShowTab();
     void HideTab();
 
+    void UpdateHudInfo(int health, int armour, int weaponid, int ammo, int ammoinclip, int money, int wanted);
+    void ShowHud();
+    void HideHud();
+
     void SetTab(int id, char* names, int score, int pings);
     void ClearTab();
     
@@ -58,4 +62,8 @@ public:
 	jmethodID s_exitGame;
 	jmethodID s_showEditObject;
 	jmethodID s_hideEditObject;
+
+    jmethodID s_showHud;
+    jmethodID s_hideHud;
+    jmethodID s_updateHudInfo;
 };

@@ -34,6 +34,10 @@ CJavaWrapper::CJavaWrapper(JNIEnv *env, jobject activity)
     s_showEditObject = env->GetMethodID(clas, "showEditObject", "()V");
     s_hideEditObject = env->GetMethodID(clas, "hideEditObject", "()V");
 
+    s_updateHudInfo = env->GetMethodID(clas, "updateHudInfo", "(IIIIIII)V");
+    s_showHud = env->GetMethodID(clas, "showHud", "()V");
+    s_hideHud = env->GetMethodID(clas, "hideHud", "()V");
+
     env->DeleteLocalRef(clas);
 }
 
@@ -149,6 +153,48 @@ void CJavaWrapper::ShowDialog(int dialogStyle, int dialogID, char* title, char* 
 	env->CallVoidMethod(activity, s_ShowDialog, dialogID, dialogStyle, jstrTitle, jstrText, jstrButton1, jstrButton2);
 
 	EXCEPTION_CHECK(env);
+}
+
+void CJavaWrapper::UpdateHudInfo(int health, int armour, int weaponid, int ammo, int ammoinclip, int money, int wanted)
+{
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+
+    env->CallVoidMethod(this->activity, this->s_updateHudInfo, health, armour, weaponid, ammo, ammoinclip, money, wanted);
+}
+
+void CJavaWrapper::ShowHud()
+{
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+    //g_pJavaWrapper->ShowNotification(4, "HUD показан.", 5, "", "Хорошо");
+    env->CallVoidMethod(this->activity, this->s_showHud);
+}
+
+void CJavaWrapper::HideHud()
+{
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+    //g_pJavaWrapper->ShowNotification(4, "HUD скрыт.", 5, "", "Хорошо");
+    env->CallVoidMethod(this->activity, this->s_hideHud);
 }
 
 void CJavaWrapper::exitGame() {

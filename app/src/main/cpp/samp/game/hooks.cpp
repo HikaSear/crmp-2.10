@@ -34,6 +34,7 @@ extern UI* pUI;
 extern CGame* pGame;
 extern CNetGame *pNetGame;
 extern MaterialTextGenerator* pMaterialTextGenerator;
+extern CJavaWrapper* pJavaWrapper;
 //extern CMatrix *pMatrix;
 bool kuziak = false;
 bool kuziaclose = false;
@@ -143,23 +144,53 @@ void Render2dStuff_hook()
     if (pUI) pUI->render();
     return;
 }*/
+
+void ShowHud()
+{
+    CLocalPlayer *pLocalPlayer = pNetGame->GetPlayerPool()->GetLocalPlayer();
+    CPlayerPed *pPed = pGame->FindPlayerPed();
+    if(pGame)
+    {
+        if(pNetGame/* && pLocalPlayer->lToggle*/)
+        {
+            if(pGame->FindPlayerPed() || GamePool_FindPlayerPed())
+            {
+                CPlayerPool *pPlayerPool = pNetGame->GetPlayerPool();
+                CWeapon *pWeapon = pPed->GetCurrentWeaponSlot();
+                if(pPlayerPool)
+                {
+                    pJavaWrapper->UpdateHudInfo(
+                            pGame->FindPlayerPed()->GetHealth(),
+                            pGame->FindPlayerPed()->GetArmour(),
+                            pWeapon->dwType,
+                            pWeapon->dwAmmoInClip,
+                            pWeapon->dwAmmo,
+                            pGame->GetLocalMoney(),
+                            pGame->GetWantedLevel()
+                    );
+                }
+                *(uint8_t*)(g_libGTASA + (VER_x32 ? 0x00819D88 + 1 : 0x009ff3A8)) = 0;
+            }
+        }
+    }
+}
+
 #include "CSkyBox.h"
-extern CJavaWrapper* pJavaWrapper;
+//extern CJavaWrapper* pJavaWrapper;
 void Render2dStuff()
 {
     //CSkyBox::Process();
-    if(CSkyBox::is) {
-        CSkyBox::Process();
-    }
 
-    if (pSettings && pSettings->Get().iHud)
+    ShowHud();
+
+    /*if (pSettings && pSettings->Get().iHud)
     {
         *(uint8_t*)(g_libGTASA + (VER_x32 ? 0x00819D88 + 1 : 0x009ff3A8)) = 1;
     }
     else if (pSettings && !pSettings->Get().iHud)
     {
         *(uint8_t*)(g_libGTASA + (VER_x32 ? 0x00819D88 + 1 : 0x009ff3A8)) = 0;
-    }
+    }*/
 
     if( CHook::CallFunction<bool>(g_libGTASA + (VER_x32 ? 0x001BB7F4 + 1 : 0x24EA90)) ) // emu_IsAltRenderTarget()
         CHook::CallFunction<void>(g_libGTASA + (VER_x32 ? 0x001BC20C + 1 : 0x24F5B8)); // emu_FlushAltRenderTarget()
@@ -190,6 +221,8 @@ void Render2dStuff()
         CTextDrawPool* pTextDrawPool = pNetGame->GetTextDrawPool();
         if(pTextDrawPool) pTextDrawPool->Draw();
     }
+
+    CHook::CallFunction<void>("_ZN15CTouchInterface7DrawAllEb", false);
 
     if (pUI) pUI->render();
 }
@@ -281,6 +314,11 @@ void (*CEntity_Render)(CEntityGTA* pEntity);
 int g_iLastRenderedObject;
 void CEntity_Render_hook(CEntityGTA* pEntity)
 {
+    if (Skybox::GetSkyObject()) {
+        if (Skybox::GetSkyObject()->m_pEntity == pEntity && !Skybox::IsNeedRender()) {
+            return;
+        }
+    }
     if(iBuildingToRemoveCount > 1)
     {
         if(pEntity && *(uintptr_t*)pEntity != g_libGTASA+(VER_x32 ? 0x667D18:0x8300A0) && !pNetGame->GetObjectPool()->GetObjectFromGtaPtr(pEntity))
@@ -888,28 +926,13 @@ void CPedDamageResponseCalculator__ComputeDamageResponse_hook(CPedDamageResponse
     CPedDamageResponseCalculator__ComputeDamageResponse(thiz, pPed, a3, a4);
 }
 
-void (*CRenderer_RenderEverythingBarRoads)();
-void CRenderer_RenderEverythingBarRoads_hook() {
-
-    //CSkyBox::Process();
-
-    CRenderer_RenderEverythingBarRoads();
-
-    if (pNetGame) {
-        CObjectPool* pObjectPool = pNetGame->GetObjectPool();
-        if (pObjectPool) {
-            for (OBJECTID i = 0; i < MAX_OBJECTS; i++) {
-                CObject* pObject = pObjectPool->GetAt(i);
-                if (pObject && pObject->m_bForceRender) {
-                    // CEntity::PreRender
-                    ((void (*)(CEntityGTA*))(*(void**)(pObject->m_pEntity + (VER_x32 ? 0x48:0x48*2))))(pObject->m_pEntity);
-
-                    // CRenderer::RenderOneNonRoad
-                    ((void (*)(CEntityGTA*))(g_libGTASA+ (VER_x32 ? 0x41030C + 1:0x4F56E0)))(pObject->m_pEntity);
-                }
-            }
-        }
+void (*CRenderer__RenderEverythingBarRoads)();
+void CRenderer__RenderEverythingBarRoads_hook() {
+    if(pNetGame) {
+        Skybox::Process();
     }
+
+    CRenderer__RenderEverythingBarRoads();
 }
 
 #include "CFPSFix.h"
@@ -1108,7 +1131,7 @@ void CCamera__Process_hook(uintptr_t thiz)
     CCamera__Process(thiz);
 }
 
-extern CJavaWrapper* pJavaWrapper;
+//extern CJavaWrapper* pJavaWrapper;
 void (*MainMenuScreen__OnExit)();
 void MainMenuScreen__OnExit_hook()
 {
@@ -1490,7 +1513,7 @@ void MainMenu_OnStartSAMP()
     // StartGameScreen::OnNewGameCheck()
     (( void (*)())(g_libGTASA + (VER_x32 ? 0x002A7270 + 1 : 0x365EA0)))();
 
-    //CHook::InlineHook(g_libGTASA, 0x52EEDC, &DoSunAndMoon, &dword_67E048);
+    //CHook::InlineHook(g_libGTASA, (VER_x32 ? 0x5A3E40 : , &DoSunAndMoon, &dword_67E048);
 
     g_bPlaySAMP = true;
 }
@@ -1892,6 +1915,8 @@ void InstallUrezHooks()
     *(char*)(g_libGTASA + (VER_x32 ? 0x1E8C04 : 0x71406F) + 14) = 't';
 }
 
+
+
 //skybox code
 
 #include "hooks.h"
@@ -2137,7 +2162,7 @@ void InstallHooks()
     CHook::InlineHook("_ZN13FxEmitterBP_c6RenderEP8RwCamerajfh", &FxEmitterBP_c__Render_hook, &FxEmitterBP_c__Render);
     CHook::InlineHook("_Z23RwResourcesFreeResEntryP10RwResEntry", &RwResourcesFreeResEntry_hook, &RwResourcesFreeResEntry);
 
-    //CHook::InlineHook("_ZN9CRenderer24RenderEverythingBarRoadsEv", &CRenderer_RenderEverythingBarRoads_hook, &CRenderer_RenderEverythingBarRoads);
+    CHook::InlineHook("_ZN9CRenderer24RenderEverythingBarRoadsEv", &CRenderer__RenderEverythingBarRoads_hook, &CRenderer__RenderEverythingBarRoads);
 
     ms_fAspectRatio = (float*)(g_libGTASA+(VER_x32 ? 0xA26A90:0xCC7F00));
     CHook::InlineHook("_ZN4CHud14DrawCrossHairsEv", &DrawCrosshair_hook, &DrawCrosshair);
