@@ -2788,7 +2788,6 @@ drawable hud_c
 drawable hud_d
 drawable ic_baseline_notifications_24
 drawable ic_buttoncolor
-drawable ic_buttoncolor3
 drawable ic_clock_black_24dp
 drawable ic_close
 drawable ic_dialog_bg
@@ -2973,7 +2972,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id GameMenu
 id META
 id NO_DEBUG
 id SHIFT
@@ -3017,11 +3015,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id account_background
-id account_image
-id account_layout
-id account_not_auth_text
-id account_text
 id actionDown
 id actionDownUp
 id actionUp
@@ -3102,14 +3095,10 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btn_close
-id btn_play
 id btn_playYY
 id btn_reinstall_client
 id btn_reinstall_data
 id btn_settings
-id btn_social_telegram
-id btn_social_vk
-id btn_social_youtube
 id buttonPanel
 id button_negative
 id button_negative_text
@@ -3203,7 +3192,6 @@ id disjoint
 id download_guide_text
 id download_logo
 id download_progressbar
-id download_render
 id download_text
 id dragAnticlockwise
 id dragClockwise
@@ -3219,7 +3207,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id edgar_con
 id edit_query
 id elastic
 id end
@@ -3292,7 +3279,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView2
 id imageView21
 id imageView3
 id immediateStop
@@ -3496,7 +3482,6 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
-id social_layout
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3557,7 +3542,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView15
-id textView4
 id textView56
 id text_input_end_icon
 id text_input_error_icon
@@ -3679,7 +3663,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
 layout attachedit
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3700,11 +3683,6 @@ layout design_text_input_start_icon
 layout dialog
 layout dialog_item
 layout dp_example
-layout fragment_download
-layout fragment_main
-layout fragment_server_select
-layout fragment_settings
-layout fragment_splash
 layout hud
 layout layout_keyboard
 layout loadingscreen
@@ -3762,7 +3740,6 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout serverlist_item
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

@@ -35,8 +35,6 @@ public class HudManager {
         textArmour = aactivity.findViewById(R.id.armour_text);
         textPlID = aactivity.findViewById(R.id.textPlayerID);
 
-
-
         hud_money = aactivity.findViewById(R.id.money_text);
         hud_weapon = aactivity.findViewById(R.id.weapon_ammo_image);
         hud_ammo = aactivity.findViewById(R.id.weapon_ammo_text);

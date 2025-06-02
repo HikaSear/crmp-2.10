@@ -25,7 +25,6 @@ package com.nvidia.devtech;
 //import static com.nvidia.devtech.NvUtil.instance;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -59,7 +58,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.joom.paranoid.Obfuscate;
 import com.samp.mobile.R;
 import com.samp.mobile.game.ui.HudManager;
-import com.samp.mobile.launcher.MenuGame;
+import com.samp.mobile.game.ui.MenuGame;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -218,6 +217,7 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
     public native void onEventBackPressed();
 
     public native void clickSpeedometr(int buttonid);
+
 
     /**
      * Helper class used to pass raw data around.
@@ -403,6 +403,7 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
 
     public void showGMenu() { runOnUiThread(() -> { mMenuGame.ShowGMenu(); }); }
     public void hideGMenu() { runOnUiThread(() -> { mMenuGame.HideGMenu(); }); }
+    public void menuGUpdate() { runOnUiThread(() -> { mMenuGame.MenuGUpdate(); }); }
 
     public native void pauseEvent();
 		public native void resumeEvent();
@@ -738,7 +739,7 @@ public abstract class NvEventQueueActivity extends AppCompatActivity implements 
         mAndroidUI = findViewById(R.id.ui_layout);
 
         mHudManager = new HudManager(this);
-        //mMenuGame = new MenuGame(this);
+        mMenuGame = new MenuGame(this);
 
         SurfaceHolder holder = view.getHolder();
         holder.setType(2);

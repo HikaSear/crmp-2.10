@@ -294,10 +294,14 @@ void DoInitStuff() {
 
         CPlayerPed* fufy = new CPlayerPed(35, 122, -288.00f, 72.0f, 13.6965f, 80.0f);
         pJavaWrapper->HideLoadingScreen();
-        bNetworkInited = true;
-        FLog("No env");
 
+        FLog("No env");
         FLog("DoInitStuff end");
+
+        /*while(!bNetworkInited)
+        {
+            pJavaWrapper->MenuGUpdate();
+        }*/
     }
 }
 
@@ -369,30 +373,33 @@ extern "C" {
 		pEnv->ReleaseByteArrayElements(str, pMsg, JNI_ABORT);
 	}
 
-    JNIEXPORT void JNICALL Java_com_nvidia_devtech_NvEventQueueActivity_Penis(JNIEnv* env, jobject thiz) {
-    if (!bNetworkInited && !bDebug && !serverConnect) {
+    JNIEXPORT void JNICALL Java_com_samp_mobile_game_ui_MenuGame_ConnectServer(JNIEnv* env, jobject thiz, jint serverid)
+    {
+        if (!bNetworkInited && !bDebug)
+        {
+            if (serverid == 0)
+            {
+                pNetGame = new CNetGame(SERVER_HOST_TEST, SERVER_PORT_TEST, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            }
+            else if (serverid == 1)
+            {
+                pNetGame = new CNetGame(SERVER_HOST_1, SERVER_PORT_1, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            }
+            else if (serverid == 2)
+            {
+                pNetGame = new CNetGame(SERVER_HOST_2, SERVER_PORT_2, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            }
+            else if (serverid == 3)
+            {
+                pNetGame = new CNetGame(SERVER_HOST_3, SERVER_PORT_3, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            }
+            else if (serverid == 4)
+            {
+                pNetGame = new CNetGame(SERVER_HOST_4, SERVER_PORT_4, pSettings->Get().szNickName, pSettings->Get().szPassword);
+            }
 
-        int serverid = pSettings->GetReadOnly().iServerID;
-
-        if (serverid == 0) {
-            pNetGame = new CNetGame(SERVER_HOST_TEST, SERVER_PORT_TEST, pSettings->Get().szNickName,
-                                    pSettings->Get().szPassword);
-        } else if (serverid == 1) {
-            pNetGame = new CNetGame(SERVER_HOST_1, SERVER_PORT_1, pSettings->Get().szNickName,
-                                    pSettings->Get().szPassword);
-        } else if (serverid == 2) {
-            pNetGame = new CNetGame(SERVER_HOST_2, SERVER_PORT_2, pSettings->Get().szNickName,
-                                    pSettings->Get().szPassword);
-        } else if (serverid == 3) {
-            pNetGame = new CNetGame(SERVER_HOST_3, SERVER_PORT_3, pSettings->Get().szNickName,
-                                    pSettings->Get().szPassword);
-        } else if (serverid == 4) {
-            pNetGame = new CNetGame(SERVER_HOST_4, SERVER_PORT_4, pSettings->Get().szNickName,
-                                    pSettings->Get().szPassword);
-        }
-
-        bNetworkInited = true;
-        pUI->chat()->addDebugMessage("Connected to server... {622cf5}ID: %d", serverid);
+            bNetworkInited = true;
+            pUI->chat()->addDebugMessage("Connected to server... {622cf5}ID: %d", serverid);
         }
     }
 }

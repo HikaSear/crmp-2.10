@@ -30,7 +30,6 @@ CSettings::CSettings()
 	m_Settings.szNickName[length] = '\0';
 	length = reader.Get("client", "password", "").copy(m_Settings.szPassword, MAX_SETTINGS_STRING);
 	m_Settings.szPassword[length] = '\0';
-    m_Settings.iServerID = reader.GetInteger("client", "serverid", 1);
 
 	// debug
 	m_Settings.bDebug = reader.GetBoolean("debug", "debug", false);
@@ -88,7 +87,7 @@ CSettings::CSettings()
 	m_Settings.iRadarRect = reader.GetBoolean("gui", "radarrect", false);
 	m_Settings.iSkyBox = reader.GetBoolean("gui", "skybox", false);
 	m_Settings.iSnow = reader.GetBoolean("gui", "snow", false);
-    m_Settings.iHud = reader.GetBoolean("gui", "hud", false);
+    m_Settings.iHud = reader.GetBoolean("gui", "hud", true);
 	FLog("Settings loaded.");
 }
 

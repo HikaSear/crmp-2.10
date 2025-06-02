@@ -40,6 +40,7 @@ CJavaWrapper::CJavaWrapper(JNIEnv *env, jobject activity)
 
     s_showGMenu = env->GetMethodID(clas, "showGMenu", "()V");
     s_hideGMenu = env->GetMethodID(clas, "hideGMenu", "()V");
+    s_menuGUpdate = env->GetMethodID(clas, "menuGUpdate", "()V");
 
     env->DeleteLocalRef(clas);
 }
@@ -222,6 +223,19 @@ void CJavaWrapper::HideGMenu() {
     }
 
     env->CallVoidMethod(this->activity, this->s_hideHud);
+}
+
+void CJavaWrapper::MenuGUpdate() {
+    JNIEnv* env;
+    javaVM->GetEnv((void**)&env, JNI_VERSION_1_6);
+
+    if (!env)
+    {
+        FLog("No env");
+        return;
+    }
+
+    env->CallVoidMethod(this->activity, this->s_menuGUpdate);
 }
 
 void CJavaWrapper::exitGame() {

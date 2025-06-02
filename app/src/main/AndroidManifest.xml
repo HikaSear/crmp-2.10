@@ -47,9 +47,9 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <!-- MainActivity с явным android:exported -->
+        <!-- MenuGame с явным android:exported -->
         <activity
-            android:name=".game.launcher.activity.MainActivity"
+            android:name="com.samp.mobile.game.ui.MenuGame"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustNothing"

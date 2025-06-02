@@ -6,16 +6,16 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file("C:\\Users\\vadim\\key\\key.jks")
-            storePassword "123123"
+            storeFile file("C:\\Users\\timil\\key\\key.jks")
+            storePassword "12348765"
             keyAlias "tgrpKey"
-            keyPassword "123123"
+            keyPassword "12348765"
         }
         release {
-            storeFile file("C:\\Users\\vadim\\key\\key.jks")
-            storePassword "123123"
+            storeFile file("C:\\Users\\timil\\key\\key.jks")
+            storePassword "12348765"
             keyAlias "tgrpKey"
-            keyPassword "123123"
+            keyPassword "12348765"
         }
     }
     compileSdk 34

@@ -29,6 +29,7 @@ public:
 
     void ShowGMenu();
     void HideGMenu();
+    void MenuGUpdate();
 
     void SetTab(int id, char* names, int score, int pings);
     void ClearTab();
@@ -70,4 +71,5 @@ public:
     jmethodID s_updateHudInfo;
     jmethodID s_showGMenu;
     jmethodID s_hideGMenu;
+    jmethodID s_menuGUpdate;
 };

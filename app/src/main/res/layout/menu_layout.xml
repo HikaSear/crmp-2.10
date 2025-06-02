@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/btn_playYY"
         android:layout_width="140dp"
-        android:layout_height="54dp"
+        android:layout_height="50dp"
         android:layout_margin="30dp"
         android:drawablePadding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
